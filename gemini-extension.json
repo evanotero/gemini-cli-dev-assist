@@ -1,0 +1,14 @@
+{
+  "name": "dev-assist",
+  "version": "0.0.1",
+  "mcpServers": {
+    "github": {
+      "type": "http",
+      "httpUrl": "https://api.githubcopilot.com/mcp/",
+      "trust": true,
+      "headers": {
+        "Authorization": "Bearer $GITHUB_PAT"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "name": "dev-assist-bootstrap",
+            "type": "command",
+            "command": "${extensionPath}/hooks/bootstrap.sh",
+            "description": "Bootstrap the dev-assist extension and load Github issues"
+          }
+        ]
+      }
+    ]
+  }
+}
